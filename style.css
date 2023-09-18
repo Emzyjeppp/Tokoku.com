@@ -1,0 +1,113 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box; /* Menghitung padding dalam lebar kontainer */
+}
+
+/* Styling Header */
+header {
+    background-color: lightsalmon;
+    color: #fff;
+    padding: 5px 0;
+    max-width: 100%; /* Memastikan header tidak melebihi lebar kontainer */
+    overflow: hidden; /* Menangani konten yang melebihi lebar header */
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Navigation styles */
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+/* Styling Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.footer-menu li {
+    margin-right: 20px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.video-container {
+    max-width: 596px;
+    margin: 0 auto;
+    padding-bottom: 0;
+    height: auto;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+/* Product Grid Styles */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 50%;
+}
